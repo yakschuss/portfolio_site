@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #E8E8E8;
-    background: url('/assets/grayscale/header_image_1.jpg') no-repeat bottom center scroll;
+    background: image-url('header_image_1.jpg') no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -277,7 +277,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #000;
-    background: url('/assets/grayscale/downloads-bg-3_x.jpg') no-repeat center center scroll;
+    background: image-url('downloads-bg-3_x.jpg') no-repeat center center scroll;
     background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -400,7 +400,7 @@ a .navbar-header .navbar-brand {
 
 }
 .navbar-brand .white-logo-picture {
-    content:url('/assets/grayscale/white_logo.png');
+    content:image-url('white_logo.png');
 }
 
 #navbar-brand-header{
@@ -448,7 +448,7 @@ a .navbar-header .navbar-brand {
 }
 
 .personal-picture{
-    content:url('/assets/grayscale/personal_pic.jpeg');
+    content:image-url('personal_pic.jpeg');
     border-radius: 50%;
     border-width: 15px;
     border-style: solid;
