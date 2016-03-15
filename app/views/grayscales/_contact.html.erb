@@ -1,21 +1,35 @@
-<section id="contact" class="container content-section text-center">
+<section id="contact" class="container content-section text-center contact-section-download">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 contact-section">
             <h2>Contact Jack</h2>
             <p>Feel free to get in touch with me for feedback, interesting articles, books, or opportunities!</p>
-            <p><a href="mailto:j@jackschuss.com">j@jackschuss.com</a>
-            </p>
-            <ul class="list-inline banner-social-buttons">
-                <li>
-                    <a href="https://twitter.com/yakschuss" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                </li>
-                <li>
-                    <a href="https://github.com/yakschuss" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com/in/jackschuss" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                </li>
+            <ul class="social-media">
+              <li>
+                <%= link_to "https://www.linkedin.com/in/jackschuss", target: "_blank" do %>
+                  <i class="fa fa-linkedin fa-3x"></i>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "https://github.com/yakschuss", target: "_blank" do %>
+                  <i class="fa fa-github fa-3x"></i>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "mailto:j@jackschuss.com", target: "_blank" do %>
+                  <i class="fa fa-envelope-o fa-3x"></i>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "https://twitter.com/yakschuss", target: "_blank" do %>
+                  <i class="fa fa-twitter fa-3x"></i>
+                <% end %>
+              </li>
+
             </ul>
+            <div class="col-md-12">
+              <p class="copyright text-center">&copy; 2016 by <a target="_blank">Jack Schuss</a>. All Rights Reserved.
+              </p>
+            </div>
         </div>
     </div>
 </section>

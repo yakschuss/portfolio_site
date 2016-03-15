@@ -287,6 +287,9 @@ a:focus {
     opacity: 10;
 
 }
+.download-section h6 {
+    color: white;
+}
 .portfolio-text{
     margin: 0 0 35px;
     text-transform: uppercase;
@@ -400,7 +403,10 @@ a .navbar-header .navbar-brand {
 
 }
 .navbar-brand .white-logo-picture {
-    content:url('white_logo.png');
+    content:url('JS_white.png');
+    margin-right: 5px;
+    position: relative;
+    height: 3em;
 }
 
 #navbar-brand-header{
@@ -436,6 +442,7 @@ a .navbar-header .navbar-brand {
 .about-section {
     color: #000;
     background-color: #000;
+    padding-top: 30px;
 }
 
 #about {
@@ -469,3 +476,117 @@ a .navbar-header .navbar-brand {
 .content-section-download {
     padding-top: 0px;
 }
+
+.contact-section-download {
+    padding-top: 50px;
+}
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+.portfolio-container{
+    padding: 0;
+}
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(#595959, 0.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+#contact {
+
+  .copyright {
+    margin-bottom: 0px;
+    margin-top:5px;
+    padding-bottom: 0;
+  }
+  .social-media {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    a {
+      font-size: 16px;
+      display: table;
+      width: 40px;
+      height: 40px;
+      margin: 0 4px;
+
+      i {
+        display: table-cell;
+        vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+
+    .devicon-icon-style {
+        font-size: 4em;
+        color: #fff;
+    }
+
+
+    @media(max-width: 768px){
+        .about-section{
+            vertical-align: middle;
+        }
+        .personal-picture{
+            margin-bottom: 40px;
+        }
+    }
