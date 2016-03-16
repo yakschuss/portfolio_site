@@ -495,6 +495,10 @@ a .navbar-header .navbar-brand {
 .portfolio-container{
     padding: 0;
 }
+.portfolio-container .col-lg-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -609,4 +613,41 @@ a .navbar-header .navbar-brand {
     }
     .spacer-xl{
         margin-top: 40px;
+    }
+
+    .modal-text p {
+        text-transform: uppercase;
+        font-size: 1em;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: .7px;
+        color: #666;
+    }
+
+    .modal-text h4 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        letter-spacing: .9px;
+        color: #000;
+    }
+    .modal-text li {
+        font-size: 1em;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: .7px;
+        color: #666;
+    }
+    .modal-button-title h4 {
+        text-transform: uppercase;
+        font-size: 2em;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        letter-spacing: .9px;
+        color: #fff;
+    }
+    .portfolio-container .col-lg-4{
+        padding-right: 0px;
+        padding-left: 0px;
     }
