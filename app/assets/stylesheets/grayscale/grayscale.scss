@@ -655,3 +655,11 @@ a .navbar-header .navbar-brand {
         padding-right: 0px;
         padding-left: 0px;
     }
+
+    .modal{
+    overflow-y: auto;
+    }
+    .modal-open{
+    overflow:auto;
+    overflow-x:hidden;
+    }
