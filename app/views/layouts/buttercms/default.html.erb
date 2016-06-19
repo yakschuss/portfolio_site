@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= content_for?(:html_title) ? "#{content_for(:html_title)} | My Blog" : "nil #=> nil" %></title>
+
+
+  <%= stylesheet_link_tag    'buttercms/manifest.css', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+    <meta name="description" content="<%= content_for?(:meta_description) ? content_for(:meta_description) : "Jack Schuss" %>">
+
+    <link rel="alternate" type="application/atom+xml" title="Jack Schuss - Atom" href="<%= buttercms_blog_atom_path %>">
+    <link rel="alternate" type="application/rss+xml" title="Jack Schuss - RSS" href="<%= buttercms_blog_rss_path %>">
+
+    <!-- See https://buttercms.com/docs/#cssstyling -->
+    <link rel="stylesheet" href="http://d2z2rr99bkshyr.cloudfront.net/buttercms-post-defaults.css">
+</head>
+<body>
+    <div class="home-navigation-div">
+      <%= link_to  "Home", root_path, class: "home-navigation-link" %>
+    </div>
+
+    <%= yield %>
+    <p> powered by Butter!! buttercms.com </p>
+</body>
+</html>
