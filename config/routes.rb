@@ -3,5 +3,11 @@ Rails.application.routes.draw do
 
 
     get '/blog', to: 'posts#index', as: 'blog'
+
     resources :posts, only: [:show]
+
+
+    namespace :dashboard do
+      resources :posts, except: [:show, :index]
+    end
 end
