@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
     root to: 'grayscales#index'
 
 
@@ -9,5 +10,8 @@ Rails.application.routes.draw do
 
     namespace :dashboard do
       resources :posts, except: [:show, :index]
+      resources :sessions, only: [:new, :create, :destroy]
+
+      root to: 'sessions#new'
     end
 end
