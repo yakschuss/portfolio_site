@@ -1,5 +1,5 @@
 class Dashboard::ApplicationController < ActionController::Base
-  include SessionsHelper
+  include Dashboard::SessionsHelper
 
   protect_from_forgery with: :exception
 

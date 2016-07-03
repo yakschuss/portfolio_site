@@ -4,7 +4,7 @@ class SessionsController < ActionController::Base
   end
 
   def create
-    admin = Admin.find_by(adminname: params[:session][:email].downcase)
+    admin = Admin.find_by(username: params[:session][:email].downcase)
 
       if admin && admin.authenticate(params[:session][:password])
         create_session admin
