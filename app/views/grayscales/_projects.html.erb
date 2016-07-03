@@ -1,4 +1,43 @@
 <section class="no-padding" id="projects">
+  <!-- Collably Modal -->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header modal-text">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Collably</h4>
+        </div>
+        <div class="modal-body modal-text">
+          <p>Collably is my 'capstone' project. The Goal of collably was for me to conceive of an idea, organize the architecture, construct user stories, and complete the first iteration completely self-directed.</p>
+          <p>I worked with a mentor of mine, Richard, in a Project Manager - Developer relationship. The purpose was for us to simulate a workplace development environment, while stretching my ability to solve problems.</p>
+          <ul>
+            <li>
+              join tables, has_many :through, and added ActiveRecord complexity
+            </li>
+            <li>
+              custom controller actions and instance methods for added functionality
+            </li>
+            <li>
+              N + 1 database queries
+            </li>
+            <li>
+              test-driven-development and agile development methodology
+            </li>
+            <li>
+              implemented inbox system and message-board type communication
+            </li>
+            </br>
+            <%# image_tag %>
+            <a href= "https://github.com/yakschuss/collably" >Source Code</a>
+            <div class="portfolio-box-caption">
+          </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
@@ -8,307 +47,261 @@
             <h4 class="modal-title" id="myModalLabel">Bloccit</h4>
           </div>
           <div class="modal-body modal-text">
-             <p> A reddit clone, allowing users to post, comment, share links, vote on posts, and favorite.</p>
-             <p>A feature rich application designed to practice the fundamentals of RoR.</p>
-             <p>Some of the challenges involved included, but were not limited to:</p>
-              <ul>
-                  <li>
-                      Test-Driven-Development to ensure stability and refactoring possiblity.
-                  </li>
-                  <li>
-                      Designing a basic UI for end-users
-                  </li>
-                  <li>
-                      Creating user authentication and sessions from scratch
-                  </li>
-                  <li>
-                      Deployment and managing a production environment
-                  </li>
-                  <li>
-                      Building an API to send and receive data
-                  </li>
+            <p> This was my very first app I ever programmed, so I'm pretty proud of it. It exposed me to almost every fundamental Rails feature, as well as many programming concepts.</p>
+            <p> A reddit clone, allowing users to post, comment, share links, vote on posts, and favorite.</p>
+            <p>A feature rich application designed to practice the fundamentals of RoR.</p>
+            <p>Some of the challenges involved included, but were not limited to:</p>
+            <ul>
+              <li>
+                Test-Driven-Development to ensure stability and refactoring possiblity.
+              </li>
+              <li>
+                Designing a basic UI for end-users
+              </li>
+              <li>
+                Creating user authentication and sessions from scratch
+              </li>
+              <li>
+                Deployment and managing a production environment
+              </li>
+              <li>
+                Building an API to send and receive data
+              </li>
               </br>
-                  <%# image_tag %>
-                  <a href= "https://github.com/yakschuss/Bloccit" >Source Code</a>
-                  <div class="portfolio-box-caption">
-              </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <%# image_tag %>
+              <a href= "https://github.com/yakschuss/Bloccit" >Source Code</a>
+              <div class="portfolio-box-caption">
+            </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Blocitoff Modal -->
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header modal-text">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Blocitoff</h4>
-          </div>
-          <div class="modal-body modal-text">
+      <!-- Blocitoff Modal -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header modal-text">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Blocitoff</h4>
+            </div>
+            <div class="modal-body modal-text">
               <p>A self destructing todo list application  with user authentication.</p>
+              <p>I used this as further Rails practice, and I was able to put some of the knowledge I was learning to work.</p>
+
               <p>Some of the Ruby and Rails concepts touched on here are:</p>
               <ul>
-                  <li>
-                      Cron-Jobs for self-destructing todo applications
-                  </li>
-                  <li>
-                      Ajax and unobtrusive javascript for client-side data manipulation
-                  </li>
-                  <li>
-                      User authentication and authorization
-                  </li>
-                  <li>
-                      Database migrations and manipulation
-                  </li>
-              </br>
-                  <%# image_tag %>
-                  <a href= "https://github.com/yakschuss/bloccitoff" >Source Code</a>
-                  <div class="portfolio-box-caption">
+                <li>
+                  Cron-Jobs for self-destructing todo applications
+                </li>
+                <li>
+                  Ajax and unobtrusive javascript for client-side data manipulation
+                </li>
+                <li>
+                  User authentication and authorization
+                </li>
+                <li>
+                  Database migrations and manipulation
+                </li>
+                </br>
+                <%# image_tag %>
+                <a href= "https://github.com/yakschuss/bloccitoff" >Source Code</a>
+                <div class="portfolio-box-caption">
               </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Collably Modal -->
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header modal-text">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Collably</h4>
-          </div>
-          <div class="modal-body modal-text">
-              <p>Collably is my 'capstone' project. The Goal of collably was for me to conceive of an idea, organize the architecture, construct user stories, and complete the first iteration completely self-directed.</p>
-              <p>I worked with a mentor of mine, Richard, in a Project Manager - Developer relationship. The purpose was for us to simulate a workplace development environment, while stretching my ability to solve problems.</p>
-              <ul>
-                  <li>
-                      join tables, has_many :through, and added ActiveRecord complexity
-                  </li>
-                  <li>
-                      custom controller actions and instance methods for added functionality
-                  </li>
-                  <li>
-                      N + 1 database queries
-                  </li>
-                  <li>
-                      test-driven-development and agile development methodology
-                  </li>
-                  <li>
-                      implemented inbox system and message-board type communication
-                  </li>
-              </br>
-                  <%# image_tag %>
-                  <a href= "https://github.com/yakschuss/collably" >Source Code</a>
-                  <div class="portfolio-box-caption">
-              </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Open-Todo-API Modal -->
-    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header modal-text">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Open-Todo-Api</h4>
-          </div>
-          <div class="modal-body modal-text">
-               <p>I wrote this in a day in an effort to learn more about APIs</p>
-              <p>I decided to do this project as a companion to Basic-Todo-List</p>
 
-              <ul>
+        <!-- Open-Todo-API Modal -->
+        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header modal-text">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Open-Todo-Api</h4>
+              </div>
+              <div class="modal-body modal-text">
+                <p>I wrote this in a day in an effort to learn more about APIs</p>
+                <p>I decided to do this project as a companion to Basic-Todo-List</p>
+
+                <ul>
                   <li>
-                      User authorization using static auth_token
+                    User authorization using static auth_token
                   </li>
                   <li>
-                      Explored different methods of authorizing users
+                    Explored different methods of authorizing users
                   </li>
                   <li>
-                      Wrote and and implemented serializers for each model to return JSON objects
+                    Wrote and and implemented serializers for each model to return JSON objects
                   </li>
-              </br>
+                  </br>
                   <%# image_tag %>
                   <a href= "https://github.com/yakschuss/Open-Todo-Api" >Source Code</a>
                   <div class="portfolio-box-caption">
-              </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--  Event_Registration Modal -->
-    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header modal-text">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Event Registration</h4>
-          </div>
-          <div class="modal-body modal-text">
-
-              <p>This was a fun project where I wanted to explore having users pay for things without having to register.</p>
-              <p>I used Stripe API to construct a service object which dealt with variable model types.</p>
-              <ul>
-                  <li>Ajax</li>
-                  <li>Single Table Inheritance</li>
-                  <li>Service Objects</li>
-                  <li>TDD</li>
-              </br>
-                  <%# image_tag %>
-                  <a href= "https://github.com/yakschuss/event_registration" >Source Code</a>
-                  <div class="portfolio-box-caption">
-              </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!--   J-Jams Modal -->
-    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header modal-text">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">J-Jams</h4>
-          </div>
-          <div class="modal-body modal-text">
-            <p>J - Jams is a refactoring of a HTML/CSS website I built sometime ago, in AngularJS.</p>
-            <p>I'm still building it, but come back later for more details!</p>
-              <ul>
-                  <li>
-
-                  </li>
-                  <li>
-
-                  </li>
-                  <li>
-
-                  </li>
-                  <li>
-
-                  </li>
-                  <li>
-
-                  </li>
-              </br>
-                  <%# image_tag %>
-                  <a href= "https://github.com/yakschuss/j-jams-angular" >Source Code</a>
-                  <div class="portfolio-box-caption">
-              </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Triggers -->
-    <div class="container-fluid portfolio-container">
-        <div class="row no-gutter">
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project1">
-                    <%= image_tag "grayscale/projects/bloccit.png", class: "img-responsive", alt: "" %>
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
-                                <h4>
-                                    Bloccit
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project2">
-                    <%= image_tag "grayscale/projects/blocitoff.png", class: "img-responsive", alt: "" %>
+          </div>
+
+          <!--  Event_Registration Modal -->
+          <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header modal-text">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Event Registration</h4>
+                </div>
+                <div class="modal-body modal-text">
+
+                  <p>This was a fun project where I wanted to explore having users pay for things without having to register (use sessions) </p>
+                  <p>I used Stripe API to construct a service object which dealt with variable model types.</p>
+                  <ul>
+                    <li>Ajax</li>
+                    <li>Single Table Inheritance</li>
+                    <li>Service Objects</li>
+                    <li>TDD</li>
+                    <li>A deadline. I built this in 4 days.</li>
+                    </br>
+                    <%# image_tag %>
+                    <a href= "https://github.com/yakschuss/event_registration" >Source Code</a>
                     <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
-                                <h4>
-                                    Blocitoff
-                                </h4>
-                            </div>
-                        </div>
+                  </ul>
                     </div>
-                </a>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project3">
-                    <%= image_tag "grayscale/projects/collably.png", class: "img-responsive", alt: "" %>
-                    <div class="portfolio-box-caption">
+
+
+            <!--   J-Jams Modal -->
+            <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header modal-text">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">J-Jams</h4>
+                  </div>
+                  <div class="modal-body modal-text">
+                    <p>J - Jams is a refactoring of a HTML/CSS website I built sometime ago, in AngularJS.</p>
+                    <p> My goal/challenge was to learn the basics of AngularJS, and understand the fundamentals well.</p>
+                    <p>I chose to refactor a music-player website that I had built already in Vanilla JS and JQuery, and replicate that functionality in Angular.</p>
+                    <p>The result is a basic music player application that can play/pause music, control the volume and duration of a song, and update the views accordingly.</p>
+
+                    <ul>
+                      </br>
+                      <%# image_tag %>
+                      <a href= "https://github.com/yakschuss/j-jams-angular" >Source Code</a>
+                      <div class="portfolio-box-caption">
+                    </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Triggers -->
+
+              <div class="container-fluid portfolio-container">
+                <div class="row no-gutter">
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project3">
+                      <%= image_tag "grayscale/projects/collably.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
+                          <div class="project-name modal-button-title">
                             <h4>
-                                Collably
+                              Collably
                             </h4>
-                            </div>
+                          </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project4">
-                    <%= image_tag "grayscale/projects/open_todo_api.png", class: "img-responsive", alt: "" %>
-                    <div class="portfolio-box-caption">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project1">
+                      <%= image_tag "grayscale/projects/bloccit.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
-                                <h4>
-                                    Open-Todo-Api
-                                </h4>
-                            </div>
+                          <div class="project-name modal-button-title">
+                            <h4>
+                              Bloccit
+                            </h4>
+                          </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project5">
-                    <%= image_tag "grayscale/projects/event_registration.png", class: "img-responsive", alt: "" %>
-                    <div class="portfolio-box-caption">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project2">
+                      <%= image_tag "grayscale/projects/blocitoff.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
-                                <h4>
-                                  Event Registration 
-                                </h4>
-                            </div>
+                          <div class="project-name modal-button-title">
+                            <h4>
+                              Blocitoff
+                            </h4>
+                          </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project6">
-                    <%= image_tag "grayscale/projects/j-jams.png", class: "img-responsive", alt: "" %>
-                    <div class="portfolio-box-caption">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project4">
+                      <%= image_tag "grayscale/projects/open_todo_api.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-name modal-button-title">
-                              <h4>
-                                J Jams 
-                              </h4>
-                            </div>
+                          <div class="project-name modal-button-title">
+                            <h4>
+                              Open-Todo-Api
+                            </h4>
+                          </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project6">
+                      <%= image_tag "grayscale/projects/j-jams.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name modal-button-title">
+                            <h4>
+                              J Jams 
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#project5">
+                      <%= image_tag "grayscale/projects/event_registration.png", class: "img-responsive", alt: "" %>
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name modal-button-title">
+                            <h4>
+                              Event Registration 
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
 </section>
