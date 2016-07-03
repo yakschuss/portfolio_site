@@ -8,7 +8,9 @@
   <div class="posts-div">
     <ul class="post-list">
       <% @posts.each do |post| %>
-        <%= link_to "#{post.title}", post_path(post), class: "post-title" %>
+        <li class="rename-color" style="color:black;">
+          <%="#{post.created_at.strftime("%b %d '%y")} "%> <%= link_to " #{post.title}", post_path(post), class: "post-title" %>
+        </li>
       <% end %>
     </ul>
   </div>

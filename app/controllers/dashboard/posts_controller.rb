@@ -9,7 +9,7 @@ class Dashboard::PostsController < Dashboard::ApplicationController
 
 
   def create
-    @post = Post.find(params[:id])
+    @post = Post.new(post_params)
 
     if @post.save
       redirect_to post_path(@post)
@@ -17,6 +17,22 @@ class Dashboard::PostsController < Dashboard::ApplicationController
       render :new
     end
 
+  end
+
+  def destroy
+    @post = Post.find(params[:id])
+
+    if @post.destroy
+      redirect_to posts_path
+    else
+      render @post
+    end
+  end
+
+  private
+
+  def post_params
+    params.require(:post).permit(:title, :body)
   end
 
 
