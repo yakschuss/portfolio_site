@@ -1,0 +1,20 @@
+<section id="form-section">
+  <div class="container">
+    <div class="row">
+      <div class="contact-form">
+        <div class="form-group">
+          <%= form_for :contact_form, url: create_path, name: "contact-form" do |f| %>
+            <%= f.text_field :name, placeholder: "Name", class: "form-control name", required: true %>
+            </br>
+
+            <%= f.email_field :email, placeholder: "Email", class: "form-control email", required: true %>
+            </br>
+            <%= f.text_area :message, placeholder: "Message", class: "form-control body", required: true %>
+            </br>
+            <%= f.submit "Send", class: "btn btn-success" %>
+        </div>
+      <% end %>
+      </div>
+    </div>
+    </section>
+
