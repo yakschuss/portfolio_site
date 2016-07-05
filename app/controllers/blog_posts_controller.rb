@@ -1,7 +1,7 @@
 class BlogPostsController < ApplicationController
 
   def index
-    @blog_posts = Ramble::BlogPost.all
+    @blog_posts = Ramble::BlogPost.all(sort_by: :written_on, desc: true)
   end
 
   def show
