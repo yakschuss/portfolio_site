@@ -34,7 +34,7 @@ to them previously.
 Funny how reading two chapters in an insightful book will change how you think
 about _all_ of the work you do.
 
-Can you think of other ways to chance misconceptions about ideas/concepts?
+Can you think of other ways to change misconceptions about ideas/concepts?
 
 I'd love to hear about them! Send me a contact form on the homepage.
 
