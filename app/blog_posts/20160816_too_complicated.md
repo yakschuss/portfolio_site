@@ -5,13 +5,13 @@ really well organized.
 
 I'm not totally through it, but where this huge black hole of scary knowledge
 existed - 
-```
-Super hard metaprogrammings stuffz for l33t coderz!
-```
+
+`Super hard metaprogrammings stuffz for l33t coderz!`
+
 or, put more simply:
-```
- Really difficult and hard to approach problems.
-```
+
+`Really difficult and hard to approach problems.`
+
 something has taken that place.
 
 An understanding of some of the techniques used to solve a specific type of
